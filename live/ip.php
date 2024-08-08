@@ -1,11 +1,11 @@
 <?php
 
-# ip.php by HACK0F2020
-# Author   : HACK0F2020
-# Github   : https://github.com/HACK0F2020
-# Email    : 
-# Messenger: 
-# Date     : 
+# ip.php by KasRoudra
+# Author   : KasRoudra
+# Github   : https://github.com/KasRoudra
+# Email    : kasroudrard@gmail.com
+# Messenger: https//m.me/KasRoudra
+# Date     : 5-09-2021
 
 error_reporting(E_ERROR | E_PARSE);
 
